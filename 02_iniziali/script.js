@@ -4,7 +4,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function nameList(arr){
+    
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
