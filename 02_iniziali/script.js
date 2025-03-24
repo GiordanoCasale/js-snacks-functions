@@ -15,7 +15,7 @@ function nameList(arr) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(nameList(names))
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
