@@ -7,8 +7,9 @@ const word = 'javascript';
 function vocal(letters){
     let count = 0
     let result = []
-    for(let i=0; i<letters.lenght; i++){
+    for(let i=0; i<letters.length; i++){
         if(letters[i] === "a" || letters[i] === "e" || letters[i] === "i" || letters[i] === "o" || letters[i] === "u" ){
+            count++
             result.push(letters[i])
         }
     }
@@ -17,7 +18,7 @@ function vocal(letters){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(vocal(word).length + "(" + vocal(word) + ")");
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
