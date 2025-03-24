@@ -4,9 +4,16 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-function vocal(lettere){
-    
+function vocal(letters){
+    let count = 0
+    let result = []
+    for(let i=0; i<letters.lenght; i++){
+        if(letters[i] === "a" || letters[i] === "e" || letters[i] === "i" || letters[i] === "o" || letters[i] === "u" ){
+            result.push(letters[i])
+        }
+    }
 
+    return result
 }
 
 // Invoca la funzione qui e stampa il risultato in console
