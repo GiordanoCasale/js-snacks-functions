@@ -9,7 +9,8 @@ return "ciao" + name
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+hello(userName)
+console.log(userName)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
