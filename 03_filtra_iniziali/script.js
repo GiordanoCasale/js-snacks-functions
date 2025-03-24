@@ -21,7 +21,7 @@ function nameList(arr) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(nameList(names))
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
