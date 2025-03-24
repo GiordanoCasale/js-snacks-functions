@@ -4,7 +4,10 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function vocal(lettere){
+    
 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
