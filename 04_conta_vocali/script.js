@@ -34,4 +34,5 @@ const vocal2=(letters)=>{
 console.log(vocal(word).length + "(" + vocal(word) + ")");
 console.log(vocal2(word).length + "(" + vocal2(word) + ")");
 
+
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
