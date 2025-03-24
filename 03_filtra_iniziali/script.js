@@ -5,7 +5,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 function nameList(arr) {
-   
+    let result = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].charAt(0) === "A") {
+            result.push(arr[i])
+        }
+
+
+    }
 
 
 
