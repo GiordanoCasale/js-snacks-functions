@@ -5,12 +5,16 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 function hello(name){
-return "ciao" + name
+return "ciao " + name
 }
 
+const helloArrow = (name) =>"ciao " + name
+
 // Invoca la funzione qui e stampa il risultato in console
-hello(userName)
-console.log(userName)
+
+console.log (hello(userName))
+
+console.log (helloArrow(userName))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
